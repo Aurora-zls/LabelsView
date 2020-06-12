@@ -1,22 +1,21 @@
 package com.donkingliang.labelsviewdemo;
 
+import com.donkingliang.labels.LabelsView;
+
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
-import android.util.Log;
-import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.donkingliang.labels.LabelsView;
-
 import java.util.ArrayList;
-import java.util.List;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 import static com.donkingliang.labelsviewdemo.R.id.labels;
 
 public class MainActivity extends AppCompatActivity implements LabelsView.OnLabelClickListener {
 
     private LabelsView btnLabels;
+
     private LabelsView labelsView;
 
     @Override
